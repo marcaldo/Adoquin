@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adoquin.Web", "Adoquin.Web\Adoquin.Web.csproj", "{D9188C75-B0DF-46A3-9977-E767086BB5CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adoquin.BaseApp", "Adoquin.BaseApp", "{01B63453-688F-4C4E-A839-D0D44B7341F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adoquin.Manager", "Adoquin.Manager\Adoquin.Manager.csproj", "{B5839DA1-673F-4B57-ACCE-2D6ADCA98491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adoquin.Common", "Adoquin.Common\Adoquin.Common.csproj", "{33541119-B626-4E43-B591-CCAAE6756646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9188C75-B0DF-46A3-9977-E767086BB5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9188C75-B0DF-46A3-9977-E767086BB5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9188C75-B0DF-46A3-9977-E767086BB5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9188C75-B0DF-46A3-9977-E767086BB5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5839DA1-673F-4B57-ACCE-2D6ADCA98491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5839DA1-673F-4B57-ACCE-2D6ADCA98491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5839DA1-673F-4B57-ACCE-2D6ADCA98491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5839DA1-673F-4B57-ACCE-2D6ADCA98491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33541119-B626-4E43-B591-CCAAE6756646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33541119-B626-4E43-B591-CCAAE6756646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33541119-B626-4E43-B591-CCAAE6756646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33541119-B626-4E43-B591-CCAAE6756646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9188C75-B0DF-46A3-9977-E767086BB5CD} = {01B63453-688F-4C4E-A839-D0D44B7341F1}
+		{B5839DA1-673F-4B57-ACCE-2D6ADCA98491} = {01B63453-688F-4C4E-A839-D0D44B7341F1}
+		{33541119-B626-4E43-B591-CCAAE6756646} = {01B63453-688F-4C4E-A839-D0D44B7341F1}
+	EndGlobalSection
+EndGlobal
