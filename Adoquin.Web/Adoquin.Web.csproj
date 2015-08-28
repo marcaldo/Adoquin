@@ -103,7 +103,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Adoquin.Common\Adoquin.Common.csproj">
+      <Project>{33541119-b626-4e43-b591-ccaae6756646}</Project>
+      <Name>Adoquin.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Adoquin.Manager\Adoquin.Manager.csproj">
+      <Project>{b5839da1-673f-4b57-acce-2d6adca98491}</Project>
+      <Name>Adoquin.Manager</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
